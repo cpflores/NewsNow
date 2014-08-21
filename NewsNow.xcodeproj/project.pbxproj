@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D650356619A6B608004BAB42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D650356519A6B608004BAB42 /* Foundation.framework */; };
+		D650356819A6B608004BAB42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D650356719A6B608004BAB42 /* CoreGraphics.framework */; };
+		D650356A19A6B608004BAB42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D650356919A6B608004BAB42 /* UIKit.framework */; };
+		D650357019A6B608004BAB42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D650356E19A6B608004BAB42 /* InfoPlist.strings */; };
+		D650357219A6B608004BAB42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D650357119A6B608004BAB42 /* main.m */; };
+		D650357619A6B608004BAB42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D650357519A6B608004BAB42 /* AppDelegate.m */; };
+		D650357919A6B608004BAB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D650357719A6B608004BAB42 /* Main.storyboard */; };
+		D650357C19A6B608004BAB42 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D650357B19A6B608004BAB42 /* MasterViewController.m */; };
+		D650357F19A6B608004BAB42 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D650357E19A6B608004BAB42 /* DetailViewController.m */; };
+		D650358119A6B608004BAB42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D650358019A6B608004BAB42 /* Images.xcassets */; };
+		D650358819A6B608004BAB42 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D650358719A6B608004BAB42 /* XCTest.framework */; };
+		D650358919A6B608004BAB42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D650356519A6B608004BAB42 /* Foundation.framework */; };
+		D650358A19A6B608004BAB42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D650356919A6B608004BAB42 /* UIKit.framework */; };
+		D650359219A6B608004BAB42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D650359019A6B608004BAB42 /* InfoPlist.strings */; };
+		D650359419A6B608004BAB42 /* NewsNowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D650359319A6B608004BAB42 /* NewsNowTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D650358B19A6B608004BAB42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D650355A19A6B608004BAB42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D650356119A6B608004BAB42;
+			remoteInfo = NewsNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D650356219A6B608004BAB42 /* NewsNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D650356519A6B608004BAB42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D650356719A6B608004BAB42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D650356919A6B608004BAB42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D650356D19A6B608004BAB42 /* NewsNow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewsNow-Info.plist"; sourceTree = "<group>"; };
+		D650356F19A6B608004BAB42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D650357119A6B608004BAB42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D650357319A6B608004BAB42 /* NewsNow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsNow-Prefix.pch"; sourceTree = "<group>"; };
+		D650357419A6B608004BAB42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D650357519A6B608004BAB42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D650357819A6B608004BAB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D650357A19A6B608004BAB42 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D650357B19A6B608004BAB42 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D650357D19A6B608004BAB42 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D650357E19A6B608004BAB42 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D650358019A6B608004BAB42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D650358619A6B608004BAB42 /* NewsNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D650358719A6B608004BAB42 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D650358F19A6B608004BAB42 /* NewsNowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewsNowTests-Info.plist"; sourceTree = "<group>"; };
+		D650359119A6B608004BAB42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D650359319A6B608004BAB42 /* NewsNowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsNowTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D650355F19A6B608004BAB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D650356819A6B608004BAB42 /* CoreGraphics.framework in Frameworks */,
+				D650356A19A6B608004BAB42 /* UIKit.framework in Frameworks */,
+				D650356619A6B608004BAB42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650358319A6B608004BAB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D650358819A6B608004BAB42 /* XCTest.framework in Frameworks */,
+				D650358A19A6B608004BAB42 /* UIKit.framework in Frameworks */,
+				D650358919A6B608004BAB42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D650355919A6B608004BAB42 = {
+			isa = PBXGroup;
+			children = (
+				D650356B19A6B608004BAB42 /* NewsNow */,
+				D650358D19A6B608004BAB42 /* NewsNowTests */,
+				D650356419A6B608004BAB42 /* Frameworks */,
+				D650356319A6B608004BAB42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D650356319A6B608004BAB42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D650356219A6B608004BAB42 /* NewsNow.app */,
+				D650358619A6B608004BAB42 /* NewsNowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D650356419A6B608004BAB42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D650356519A6B608004BAB42 /* Foundation.framework */,
+				D650356719A6B608004BAB42 /* CoreGraphics.framework */,
+				D650356919A6B608004BAB42 /* UIKit.framework */,
+				D650358719A6B608004BAB42 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D650356B19A6B608004BAB42 /* NewsNow */ = {
+			isa = PBXGroup;
+			children = (
+				D650357419A6B608004BAB42 /* AppDelegate.h */,
+				D650357519A6B608004BAB42 /* AppDelegate.m */,
+				D650357719A6B608004BAB42 /* Main.storyboard */,
+				D650357A19A6B608004BAB42 /* MasterViewController.h */,
+				D650357B19A6B608004BAB42 /* MasterViewController.m */,
+				D650357D19A6B608004BAB42 /* DetailViewController.h */,
+				D650357E19A6B608004BAB42 /* DetailViewController.m */,
+				D650358019A6B608004BAB42 /* Images.xcassets */,
+				D650356C19A6B608004BAB42 /* Supporting Files */,
+			);
+			path = NewsNow;
+			sourceTree = "<group>";
+		};
+		D650356C19A6B608004BAB42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D650356D19A6B608004BAB42 /* NewsNow-Info.plist */,
+				D650356E19A6B608004BAB42 /* InfoPlist.strings */,
+				D650357119A6B608004BAB42 /* main.m */,
+				D650357319A6B608004BAB42 /* NewsNow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D650358D19A6B608004BAB42 /* NewsNowTests */ = {
+			isa = PBXGroup;
+			children = (
+				D650359319A6B608004BAB42 /* NewsNowTests.m */,
+				D650358E19A6B608004BAB42 /* Supporting Files */,
+			);
+			path = NewsNowTests;
+			sourceTree = "<group>";
+		};
+		D650358E19A6B608004BAB42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D650358F19A6B608004BAB42 /* NewsNowTests-Info.plist */,
+				D650359019A6B608004BAB42 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D650356119A6B608004BAB42 /* NewsNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D650359719A6B608004BAB42 /* Build configuration list for PBXNativeTarget "NewsNow" */;
+			buildPhases = (
+				D650355E19A6B608004BAB42 /* Sources */,
+				D650355F19A6B608004BAB42 /* Frameworks */,
+				D650356019A6B608004BAB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsNow;
+			productName = NewsNow;
+			productReference = D650356219A6B608004BAB42 /* NewsNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D650358519A6B608004BAB42 /* NewsNowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D650359A19A6B608004BAB42 /* Build configuration list for PBXNativeTarget "NewsNowTests" */;
+			buildPhases = (
+				D650358219A6B608004BAB42 /* Sources */,
+				D650358319A6B608004BAB42 /* Frameworks */,
+				D650358419A6B608004BAB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D650358C19A6B608004BAB42 /* PBXTargetDependency */,
+			);
+			name = NewsNowTests;
+			productName = NewsNowTests;
+			productReference = D650358619A6B608004BAB42 /* NewsNowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D650355A19A6B608004BAB42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BuildRed;
+				TargetAttributes = {
+					D650358519A6B608004BAB42 = {
+						TestTargetID = D650356119A6B608004BAB42;
+					};
+				};
+			};
+			buildConfigurationList = D650355D19A6B608004BAB42 /* Build configuration list for PBXProject "NewsNow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D650355919A6B608004BAB42;
+			productRefGroup = D650356319A6B608004BAB42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D650356119A6B608004BAB42 /* NewsNow */,
+				D650358519A6B608004BAB42 /* NewsNowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D650356019A6B608004BAB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D650358119A6B608004BAB42 /* Images.xcassets in Resources */,
+				D650357019A6B608004BAB42 /* InfoPlist.strings in Resources */,
+				D650357919A6B608004BAB42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650358419A6B608004BAB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D650359219A6B608004BAB42 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D650355E19A6B608004BAB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D650357619A6B608004BAB42 /* AppDelegate.m in Sources */,
+				D650357C19A6B608004BAB42 /* MasterViewController.m in Sources */,
+				D650357219A6B608004BAB42 /* main.m in Sources */,
+				D650357F19A6B608004BAB42 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650358219A6B608004BAB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D650359419A6B608004BAB42 /* NewsNowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D650358C19A6B608004BAB42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D650356119A6B608004BAB42 /* NewsNow */;
+			targetProxy = D650358B19A6B608004BAB42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D650356E19A6B608004BAB42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D650356F19A6B608004BAB42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D650357719A6B608004BAB42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D650357819A6B608004BAB42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D650359019A6B608004BAB42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D650359119A6B608004BAB42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D650359519A6B608004BAB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D650359619A6B608004BAB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D650359819A6B608004BAB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsNow/NewsNow-Prefix.pch";
+				INFOPLIST_FILE = "NewsNow/NewsNow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D650359919A6B608004BAB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsNow/NewsNow-Prefix.pch";
+				INFOPLIST_FILE = "NewsNow/NewsNow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D650359B19A6B608004BAB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewsNow.app/NewsNow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsNow/NewsNow-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NewsNowTests/NewsNowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D650359C19A6B608004BAB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewsNow.app/NewsNow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsNow/NewsNow-Prefix.pch";
+				INFOPLIST_FILE = "NewsNowTests/NewsNowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D650355D19A6B608004BAB42 /* Build configuration list for PBXProject "NewsNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D650359519A6B608004BAB42 /* Debug */,
+				D650359619A6B608004BAB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D650359719A6B608004BAB42 /* Build configuration list for PBXNativeTarget "NewsNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D650359819A6B608004BAB42 /* Debug */,
+				D650359919A6B608004BAB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D650359A19A6B608004BAB42 /* Build configuration list for PBXNativeTarget "NewsNowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D650359B19A6B608004BAB42 /* Debug */,
+				D650359C19A6B608004BAB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D650355A19A6B608004BAB42 /* Project object */;
+}
