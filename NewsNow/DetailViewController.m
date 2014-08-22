@@ -2,7 +2,7 @@
 //  DetailViewController.m
 //  NewsNow
 //
-//  Created by Roots of Success on 8/21/14.
+//  Created by Chadwick Flores on 8/21/14.
 //  Copyright (c) 2014 BuildRed. All rights reserved.
 //
 
